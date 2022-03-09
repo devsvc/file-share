@@ -23,6 +23,9 @@ kotlin {
                 api(compose.foundation)
                 api(compose.material)
                 implementation("io.netty:netty-all:4.1.74.Final")
+                implementation("com.alibaba:fastjson:1.2.79")
+                implementation("org.slf4j:slf4j-api:1.7.36")
+                implementation("ch.qos.logback:logback-classic:1.2.11")
             }
         }
         val commonTest by getting {

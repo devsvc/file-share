@@ -1,2 +1,0 @@
-pro/devsvc/common/BuildConfig.java
- pro.devsvc.common.BuildConfig
